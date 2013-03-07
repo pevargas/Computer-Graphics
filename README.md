@@ -4,7 +4,7 @@ Summer 2012
 University of Colorado at Boulder  
 Final Project  
 
-My final project for CSCI 4229: Computer Graphics. It depicts an animation of a tornado.
+My final project for CSCI 4229: Computer Graphics. It depicts an animation of a tornado. The graphics were created using OpenGL 2.0.
 
 Hours Spent: (40 -> hw3) 36
 
@@ -14,23 +14,30 @@ Dependencies
 ------------
 
 ###CSCIx229.h  
-A library full of functions
+A library full of functions, provided by [Professor Willem A. (Vlakkies) Schreüder, University of Colorado Boulder] (http://www.prinmath.com/csci5229/)
+ * elapsed.c
+ * errcheck.c
  * fatal.c
+ * fps.c
  * loadtexbmp.c 
+ * noise.c
+ * object.c
  * print.c
  * project.c
- * errcheck.c
- * object.c
+ * shader.c
 
 ###Athena.h  
-A library used to help draw
+A library used to help draw.
  * axis.c
+ * light.c
+ * particles.c
  * shapes.c
+ * tornado.c
 
 Folders
 -------
 ###img/  
-Holds all the textures used
+Holds all the textures used. I do not own the rights for any of these textures. Textures found on Google.
  * barn-roof.bmp
  * barn-side.bmp
  * concrete.bmp
@@ -57,7 +64,7 @@ This File
 
 Executables
 -----------
-###./final  
+    ./final
 Draw a scene filled with visually appealing objects.
 
 Examples
