@@ -15,17 +15,24 @@ Dependencies
 
 ###CSCIx229.h  
 A library full of functions, provided by [Professor Willem A. (Vlakkies) Schreüder, University of Colorado Boulder] (http://www.prinmath.com/csci5229/)
+ * elapsed.c
+ * errcheck.c
  * fatal.c
+ * fps.c
  * loadtexbmp.c 
+ * noise.c
+ * object.c
  * print.c
  * project.c
- * errcheck.c
- * object.c
+ * shader.c
 
 ###Athena.h  
 A library used to help draw.
  * axis.c
+ * light.c
+ * particles.c
  * shapes.c
+ * tornado.c
 
 Folders
 -------
