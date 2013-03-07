@@ -30,7 +30,7 @@ A library used to help draw.
 Folders
 -------
 ###img/  
-Holds all the textures used
+Holds all the textures used. I do not own the rights for any of these textures. Textures found on Google.
  * barn-roof.bmp
  * barn-side.bmp
  * concrete.bmp
